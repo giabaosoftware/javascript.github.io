@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM excercise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .showLess, .showMore{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Name & Age</h3>
+    <p id="excercise1"></p>
+    
+    <h3>Button</h3>
+    <form action="">
+        
+        <input type="text" name="msg" value="Welcome to">
+        <input type="button" value="Welcome" name="welcome">
+    </form>
+    <h3>Button 2</h3>
+    <form action="">
+        <input type="text" name="" id="text">
+        <input type="button" value="Welcome" id="button">
+    </form>
+    <h3>Age</h3>
+    <form action="">
+        <input type="number" name="age" placeholder="Nhập năm sinh">
+        <input type="button" value="submit" id="age">
+    </form>
+    <h3>Age 2</h3>
+    <form>
+        <input type="number" name="age2" placeholder="Nhập năm sinh">
+        <input type="button" value="submit" id="age2">
+    </form>
+    <h3>Background color</h3>
+    <button id="red" style="background-color:red; color: white">Red</button>
+    <button id="blue" style="background-color:blue; color: white">Blue</button>
+
+    <h3>Background color 2</h3>
+    <form action="">
+        <select name="backgroundColor" id="backgroundColor">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="brown">Brown</option>
+            <option value="lavender">Lavender</option>
+        </select>
+        <input type="button" value="Submit" id="colorList">
+    </form>
+
+    <h3>Tilte</h3>
+    <button id="title">Change Title</button>
+
+    <h3>Time</h3>
+    <div id="clock"></div>
+
+    <h3>Paragraph</h3>
+    <p class="text">The best time to start learning from the world’s top institutions is right now. We recommend these courses for you to propel your career forward and expand your personal knowledge base. Take the next step towards your goals today!<span class="showLess"><u>Show Less</u></span></p>
+    <script src="./DOM.js"></script>
+</body>
+</html>

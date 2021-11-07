@@ -1,9 +1,11 @@
 //jshint esversion : 6
 
+
 //21
 function total(arr){
     return arr.reduce((num1, num2) => num1 + num2);
 }
+
 
 //22
 function minMaxAvg(arr){
@@ -42,6 +44,7 @@ function countMax(arr){
     }
     return countMax;
 }
+  
 
 //24
 function primeNumber(arr){
@@ -64,13 +67,14 @@ function primeNumber(arr){
     });
 }
 
+
 //25
 function sqrt(arr){
     return arr.map(num => num * num);
 }
 
-//26
 
+//26
 function nearNumber(arr, k){
     let sortArr = sortNumber(arr);
     let lessArr = sortArr.filter(num => num < k);
@@ -105,6 +109,7 @@ students = [
     }
 ];
 
+
 //transformName 
 function transformNameString(string){
     let stringArr = string.trim().split(" ");
@@ -126,6 +131,7 @@ function transformNameString(string){
     return result;
 }
 
+
 function transformName(arr){
     arr.forEach(item => {
         item.firstName = transformNameString(item.firstName);
@@ -134,6 +140,7 @@ function transformName(arr){
     return arr;
 }
 transformName(students);
+
 
 //27
 function sortArray(arr){
@@ -145,8 +152,8 @@ function sortArray(arr){
     }
     return result;
 }
-
 console.log(sortArray(students));
+
 
 //28
 function sortArray2(arr){
@@ -159,6 +166,7 @@ function sortArray2(arr){
     return result;
 }
 console.log(sortArray2(students));
+
 
 //29
 function sortArray3(arr){
@@ -192,6 +200,7 @@ function secondaryMax(arr){
     return result;
 }
 
+
 //31
 function threeNumber(arr, k){
     let flag = false;
@@ -208,6 +217,7 @@ function threeNumber(arr, k){
     let result = flag ? 'YES' : 'NO';
     return result;
 }
+
 
 //32
 function addNumber(arr, k){
